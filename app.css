@@ -1,3 +1,6 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
 .navbar {
   box-shadow: 0 3px 4px 0
     rgba(0, 0, 0, 0.5);
@@ -13,20 +16,23 @@
   flex-direction: column;
   align-items: center;
 }
+.navbar-item p {
+  color: #431c5d;
+}
+.navbar-item.has-text-purple {
+  color: #431c5d;
+  font-variant: small-caps;
+}
+.navbar-burger.burger {
+  color: #431c5d;
+  min-height: 112px;
+}
 .tabs a {
   color: #431c5d;
   font-variant: small-caps;
   font-size: 22px;
 }
-.tabs a li:is-active {
-  color: #431c5d;
-  border-bottom: 1px solid #431c5d;
-}
-.underlined {
-  display: block;
-  padding-bottom: 1px;
-}
-.name {
+.navbar-item.navbar-item-padding-top {
   padding-top: 0px;
 }
 .underlined:after {
@@ -36,6 +42,13 @@
     text-align: center;
     margin: 0.3em auto 0;
     border-bottom: #431c5d solid;
+}
+.tabs a.has-text-purple {
+  color: #431c5d;
+}
+.tabs li.is-active a.navbar-item {
+  color: #431c5d;
+  border-bottom: 2px solid #431c5d;
 }
 #intro {
   background-color: rgba(194, 221, 230, 0.3);
@@ -54,7 +67,10 @@
     border-bottom: #431c5d solid;
 }
 #intro p {
-  font-size: 18px;
+  font-size: 20px;
+}
+.text-intro-padding {
+  padding-top: 24px;
 }
 .img-intro {
   opacity: 0.7;
@@ -70,6 +86,9 @@
 .column p {
   font-size: 18px;
   color: #000000;
+}
+.skills-column-padding {
+  padding: 12px;
 }
 .is-large {
   font-size: 2rem;
@@ -88,6 +107,14 @@ h1 {
   padding-top: 20px;
   padding-bottom: 20px;
 }
+.title {
+  font-family: Avenir Next;
+  font-size: 36px;
+  font-weight: 300;
+  color: #000000;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 .underlined-title2:after {
     content: "";
     display: block;
@@ -102,14 +129,14 @@ h1 {
    height: 100%;
 }
 .is-shady {
-animation: flyintoright .4s backwards;
-background: #fff;
-box-shadow: rgba(0, 0, 0, .1) 0 1px 0;
-border-radius: 4px;
-display: inline-block;
-margin: 10px;
-position: relative;
-transition: all .2s ease-in-out;
+  animation: flyintoright .4s backwards;
+  background: #fff;
+  box-shadow: rgba(0, 0, 0, .1) 0 1px 0;
+  border-radius: 4px;
+  display: inline-block;
+  margin: 10px;
+  position: relative;
+  transition: all .2s ease-in-out;
 }
 .is-shady:hover {
 box-shadow: 0 10px 16px rgba(0, 0, 0, .13), 0 6px 6px rgba(0, 0, 0, .19);
@@ -125,7 +152,7 @@ footer li:before {
 .has-padding {
   padding-bottom: 40px;
 }
-.is-horizontal-center {
+.u-center-content {
   justify-content: center;
 }
 .card-image {
@@ -134,6 +161,7 @@ footer li:before {
 .image .img-expertise {
   width: 125px;
   height: 125px;
+  margin-top: 18px;
 }
 .img-circle {
   border: 0.4px solid #d3d3d3;
@@ -160,14 +188,14 @@ footer li:before {
   border: 1px solid #431c5d;
   border-radius: 6px;
 }
-.button-border {
-  border-radius: 15px;
+.button.button-background-color {
   text-align: center;
   background-color: #431c5d;
-  color: #ffffff;
 }
-
-footer {
+.card-title {
+  margin: 24px 0 24px 0;
+}
+.hero-footer {
   background-color: rgba(194, 221, 230, 0.3);
   padding-top: 25px;
 }
@@ -175,13 +203,14 @@ footer {
   border-radius: 50%;
   border: 1px solid #431c5d;
 }
-
-footer p {
+.column-expertise-bottom {
+  margin-bottom: 4rem;
+}
+.hero-footer p {
   font-family: Avenir Next;
   font-weight: 500;
   color: #431c5d;
-  font-size: 14px;
-  margin-right: 10px;
+  font-size: 12px;
 }
 .img-portfolio {
   margin: 0px;
