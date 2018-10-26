@@ -1,0 +1,193 @@
+.navbar {
+  box-shadow: 0 3px 4px 0
+    rgba(0, 0, 0, 0.5);
+  font-family: LucidaGrande;
+  height: 110px;
+ }
+.navbar-brand {
+  color: #431c5d;
+  font-variant: small-caps;
+  font-size: 26px;
+}
+.navbar-start {
+  flex-direction: column;
+  align-items: center;
+}
+.tabs a {
+  color: #431c5d;
+  font-variant: small-caps;
+  font-size: 22px;
+}
+.tabs a li:is-active {
+  color: #431c5d;
+  border-bottom: 1px solid #431c5d;
+}
+.underlined {
+  display: block;
+  padding-bottom: 1px;
+}
+.name {
+  padding-top: 0px;
+}
+.underlined:after {
+    content: "";
+    display: block;
+    width: 50%;
+    text-align: center;
+    margin: 0.3em auto 0;
+    border-bottom: #431c5d solid;
+}
+#intro {
+  background-color: rgba(194, 221, 230, 0.3);
+  font-family: Avenir Next;
+  font-size: 36px;
+  font-weight: 500;
+  text-align: center;
+  color: #000000;
+}
+.underlined-title1:after {
+    content: "";
+    display: block;
+    width: 20%;
+    text-align: center;
+    margin: 0.1em auto 0;
+    border-bottom: #431c5d solid;
+}
+#intro p {
+  font-size: 18px;
+}
+.img-intro {
+  opacity: 0.7;
+}
+.column {
+  border: 0px solid black;
+}
+.column h2 {
+  color: #431c5d;
+  font-size: 20px;
+  font-weight: 500;
+}
+.column p {
+  font-size: 18px;
+  color: #000000;
+}
+.is-large {
+  font-size: 2rem;
+}
+.icon {
+  padding: 18px;
+}
+.icon-color {
+  color: #431c5d;
+}
+h1 {
+  font-family: Avenir Next;
+  font-size: 36px;
+  font-weight: 500;
+  color: #000000;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.underlined-title2:after {
+    content: "";
+    display: block;
+    width: 15%;
+    text-align: center;
+    margin: 0.1em auto 0;
+    border-bottom: #431c5d solid;
+}
+.is-equal-height {
+   display: flex;
+   flex-direction: column;
+   height: 100%;
+}
+.is-shady {
+animation: flyintoright .4s backwards;
+background: #fff;
+box-shadow: rgba(0, 0, 0, .1) 0 1px 0;
+border-radius: 4px;
+display: inline-block;
+margin: 10px;
+position: relative;
+transition: all .2s ease-in-out;
+}
+.is-shady:hover {
+box-shadow: 0 10px 16px rgba(0, 0, 0, .13), 0 6px 6px rgba(0, 0, 0, .19);
+}
+/*adds font awesome stars*/
+footer li:before {
+  content: '\f1b2';
+  font-family: 'FontAwesome';
+  float: left;
+  margin-left: -1.5em;
+  color: #147efb;
+}
+.has-padding {
+  padding-bottom: 40px;
+}
+.is-horizontal-center {
+  justify-content: center;
+}
+.card-image {
+  padding-top: 20px;
+}
+.image .img-expertise {
+  width: 125px;
+  height: 125px;
+}
+.img-circle {
+  border: 0.4px solid #d3d3d3;
+  border-radius: 50%;
+}
+#portfolio {
+  background-color: rgba(194, 221, 230, 0.3);
+}
+.underlined-title-small:after {
+    content: "";
+    display: block;
+    width: 10%;
+    text-align: center;
+    margin: 0.1em auto 0;
+    border-bottom: #431c5d solid;
+}
+#contact p {
+  font-family: Avenir Next;
+  font-weight: 500;
+  font-size: 18px;
+  padding-bottom: 25px;
+}
+.field {
+  border: 1px solid #431c5d;
+  border-radius: 6px;
+}
+.button-border {
+  border-radius: 15px;
+  text-align: center;
+  background-color: #431c5d;
+  color: #ffffff;
+}
+
+footer {
+  background-color: rgba(194, 221, 230, 0.3);
+  padding-top: 25px;
+}
+.is-round {
+  border-radius: 50%;
+  border: 1px solid #431c5d;
+}
+
+footer p {
+  font-family: Avenir Next;
+  font-weight: 500;
+  color: #431c5d;
+  font-size: 14px;
+  margin-right: 10px;
+}
+.img-portfolio {
+  margin: 0px;
+  width: 400px;
+  height: 200px;
+}
+.card-image {
+  padding: 0px;
+}
