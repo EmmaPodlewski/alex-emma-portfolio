@@ -204,19 +204,27 @@ box-shadow: 0 10px 16px rgba(0, 0, 0, .13), 0 6px 6px rgba(0, 0, 0, .19);
   color: #431c5d;
   font-size: 12px;
 }
-.image img.img-portfolio {
-  margin: 0px;
-  width: 400px;
-  height: 200px;
-}
 .card-image {
   padding: 0px;
 }
 .card-portfolio {
-  width: 400px;
   margin: 0px;
+  width: 100%;
 }
 .column.center-image {
   display: flex;
   justify-content: center;
+}
+.image.is-2by1.img-portfolio {
+  width: 100%;
+}
+figcaption {
+  color: #000000;
+  margin-top: 5px;
+  font-style: italic;
+  font-size: smaller;
+  font-family: 'Roboto', sans-serif;
+}
+.is-red {
+  background-color: red;
 }
