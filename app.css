@@ -141,14 +141,6 @@ h1 {
 .is-shady:hover {
 box-shadow: 0 10px 16px rgba(0, 0, 0, .13), 0 6px 6px rgba(0, 0, 0, .19);
 }
-/*adds font awesome stars*/
-footer li:before {
-  content: '\f1b2';
-  font-family: 'FontAwesome';
-  float: left;
-  margin-left: -1.5em;
-  color: #147efb;
-}
 .has-padding {
   padding-bottom: 40px;
 }
@@ -197,7 +189,7 @@ footer li:before {
 }
 .hero-footer {
   background-color: rgba(194, 221, 230, 0.3);
-  padding-top: 25px;
+  padding-top: 30px;
 }
 .is-round {
   border-radius: 50%;
