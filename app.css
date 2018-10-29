@@ -212,3 +212,11 @@ box-shadow: 0 10px 16px rgba(0, 0, 0, .13), 0 6px 6px rgba(0, 0, 0, .19);
 .card-image {
   padding: 0px;
 }
+.card-portfolio {
+  width: 400px;
+  margin: 0px;
+}
+.column.center-image {
+  display: flex;
+  justify-content: center;
+}
