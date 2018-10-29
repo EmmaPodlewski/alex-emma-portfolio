@@ -1,10 +1,10 @@
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Archivo', sans-serif;
 }
 .navbar {
   box-shadow: 0 3px 4px 0
     rgba(0, 0, 0, 0.5);
-  font-family: LucidaGrande;
+  font-family: 'Roboto';
   height: 110px;
  }
 .navbar-brand {
@@ -52,7 +52,7 @@ body {
 }
 #intro {
   background-color: rgba(194, 221, 230, 0.3);
-  font-family: Avenir Next;
+  font-family: 'Archivo', sans-serif;
   font-size: 36px;
   font-weight: 500;
   text-align: center;
@@ -66,7 +66,10 @@ body {
     margin: 0.1em auto 0;
     border-bottom: #431c5d solid;
 }
-#intro p {
+p {
+  font-family: 'Roboto', sans-serif;
+}
+.font-size-subtitle {
   font-size: 20px;
 }
 .text-intro-padding {
@@ -78,16 +81,19 @@ body {
 .column {
   border: 0px solid black;
 }
-.column h2 {
+.tile.is-child h2 {
   color: #431c5d;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 500;
 }
-.column p {
+.tile.is-child p {
   font-size: 18px;
   color: #000000;
 }
-.skills-column-padding {
+.tile.is-vertical>.tile.is-child:not(:last-child).no-margin {
+  margin: 0px !important;
+}
+.skills-tile-padding {
   padding: 12px;
 }
 .is-large {
@@ -100,7 +106,7 @@ body {
   color: #431c5d;
 }
 h1 {
-  font-family: Avenir Next;
+  font-family: 'Archivo', sans-serif;
   font-size: 36px;
   font-weight: 500;
   color: #000000;
@@ -108,7 +114,7 @@ h1 {
   padding-bottom: 20px;
 }
 .title {
-  font-family: Avenir Next;
+  font-family: 'Archivo', sans-serif;
   font-size: 36px;
   font-weight: 300;
   color: #000000;
@@ -170,8 +176,14 @@ box-shadow: 0 10px 16px rgba(0, 0, 0, .13), 0 6px 6px rgba(0, 0, 0, .19);
     margin: 0.1em auto 0;
     border-bottom: #431c5d solid;
 }
+.subtitle-expertise {
+  color: #431c5d;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 1.125;
+  font-variant: small-caps;
+}
 #contact p {
-  font-family: Avenir Next;
   font-weight: 500;
   font-size: 18px;
   padding-bottom: 25px;
