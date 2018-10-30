@@ -134,7 +134,7 @@ h1 {
   font-size: 36px;
   font-weight: 300;
   color: #ffffff;
-  padding: 24px;
+  padding-bottom: 36px;
 }
 .underlined-title-expertise:after {
     content: "";
