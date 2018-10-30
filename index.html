@@ -34,19 +34,19 @@
            </div>
            <div id="navbarMenu" class="navbar-menu">
              <div class="navbar-end">
-              <div class="tabs is-right has-text-purple is-hidden-mobile">
+              <div class="tabs is-right has-text-tangerine is-hidden-mobile">
                 <ul>
-                 <li class="is-active has-text-purple"><a class="navbar-item" href="/">Home</a></li>
-                 <li><a class="navbar-item has-text-purple" href="#expertise">Expertise</a></li>
-                 <li><a class="navbar-item has-text-purple" href="#portfolio">Portfolio</a></li>
-                 <li><a class="navbar-item has-text-purple" href="#contact">Contact</a></li>
+                 <li class="is-active"><a class="navbar-item" href="/">Home</a></li>
+                 <li><a class="navbar-item has-text-tangerine" href="#expertise">Expertise</a></li>
+                 <li><a class="navbar-item has-text-tangerine" href="#portfolio">Portfolio</a></li>
+                 <li><a class="navbar-item has-text-tangerine" href="#contact">Contact</a></li>
                 </ul>
                </div>
                <div class="navbar-start is-hidden-tablet">
-                  <a class="navbar-item has-text-purple" href="/">Home</a>
-                  <a class="navbar-item has-text-purple" href="#expertise">Expertise</a>
-                  <a class="navbar-item has-text-purple" href="#portfolio">Portfolio</a>
-                  <a class="navbar-item has-text-purple" href="#contact">Contact</a>
+                  <a class="navbar-item has-text-tangerine" href="/">Home</a>
+                  <a class="navbar-item has-text-tangerine" href="#expertise">Expertise</a>
+                  <a class="navbar-item has-text-tangerine" href="#portfolio">Portfolio</a>
+                  <a class="navbar-item has-text-tangerine" href="#contact">Contact</a>
                 </div>
               </div>
             </div>
@@ -60,7 +60,7 @@
             <div class="column is-12">
               <h1 class="underlined-title1">Freelance full-stack Developers</h1>
               <p class="text-intro-padding font-size-subtitle">Specialized in web development and custom integration,</p>
-              <p>we create full-stack solutions tailored to your business needs.</p>
+              <p class="font-size-subtitle">we create full-stack solutions tailored to your business needs.</p>
             </div>
           </div>
           <div class="columns is-centered">
@@ -70,33 +70,19 @@
               </figure>
             </div>
           </div>
-        <div class="has-text-centered" id="skills">
-          <div class="tile is-ancestor">
-            <div class="tile">
-              <div class="tile is-parent is-vertical" id="development">
-                <div class="tile is-child box no-margin">
-                  <h2 class="card-title">Front and Back-end Development</h2>
-                </div>
-                <div class="tile is-child box">
-                  <p class="skills-tile-padding">We take pride in helping small businesses and entrepreneurs make their dreams come true. By applying our skills in HTML, CSS, JS, mySQL and Python,we build customized responsive web applications.</p>
-                </div>
+          <div class="container has-text-centered" id="skills">
+            <div class="columns is-centered">
+              <div class="column is-equal-height" id="development">
+                <h2 class="card-title">Front and Back-end Development</h2>
+                <p class="skills-column-padding text-top-banner">We take pride in helping small businesses and entrepreneurs make their dreams come true. By applying our skills in HTML, CSS, JS, mySQL and Python,we build customized responsive web applications.</p>
               </div>
-              <div class="tile is-parent is-vertical" id="api">
-                <div class="tile is-child box no-margin">
-                  <h2 class="card-title">Custom API Integration</h2>
-                </div>
-                <div class="tile is-child box">
-                  <p class="skills-tile-padding">ZenDesk, ExactOnline, custom API We create full-stack solutions tailored to your business. We create full-stack solutions tailored to your business. We create full-stack solutions tailored to your business.</p>
-                </div>
-              </div>
-              <div class="tile is-parent is-vertical" id="service">
-                <div class="tile is-child box no-margin">
-                  <h2 class="card-title">Consulting</h2>
-                </div>
-                <div class="tile is-child box">
-                  <p class="skills-tile-padding">We create full-stack solutions tailored to your business.We create full-stack solutions tailored to your business.We create full-stack solutions tailored to your business.We create full-stack solutions tailored to your business.</p>
-                </div>
-              </div>
+              <div class="column is-equal-height" id="api">
+                <h2 class="card-title">Custom API Integration</h2>
+                <p class="skills-column-padding text-top-banner">ZenDesk, ExactOnline, custom API We create full-stack solutions tailored to your business. We create full-stack solutions tailored to your business. We create full-stack solutions tailored to your business.</p>
+            </div>
+             <div class="column is-equal-height" id="service">
+              <h2 class="card-title">Consulting</h2>
+              <p class="skills-column-padding text-top-banner">We create full-stack solutions tailored to your business.We create full-stack solutions tailored to your business.We create full-stack solutions tailored to your business.We create full-stack solutions tailored to your business.</p>
             </div>
           </div>
         </div>
@@ -105,7 +91,11 @@
     </section>
     <section class="hero">
       <div class="hero-body has-text-centered" id="expertise">
-        <h1 class=" title underlined-title2">Our Expertise</h1>
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-6">
+            <h1 class=" title-expertise underlined-title-expertise">Our Expertise</h1>
+          </div>
+        </div>
         <div class="columns">
           <div class="column has-text-centered is-offset-1 is-5">
             <div class="card is-equal-height is-shady" id="front-end-development">
@@ -172,73 +162,75 @@
         </div>
       </div>
     </section>
-    <section class="section has-text-centered" id="portfolio">
-      <div class="container">
-        <h1 class="title underlined-title-small">Portfolio</h1>
-        <div class="columns is-centered">
-          <div class="column center-image is-5">
-            <div class="card-portfolio is-shady">
-              <div class="card-image has-text-centered">
-                <figure class="image is-2by1 img-portfolio">
+    <section class="container has-text-centered" id="portfolio">
+      <h1 class="title-portfolio underlined-title-small">Portfolio</h1>
+      <div class="columns is-centered">
+        <div class="column center-image is-5">
+          <div class="card-portfolio is-shady">
+            <div class="card-image has-text-centered">
+              <figure class="image is-2by1 img-portfolio">
+                <a target="_blank" href="https://www.teazit.fr/">
                   <img src="https://i.imgur.com/C8pYuOR.jpg" alt="Teazit web app">
-                </figure>
-                <figcaption>Teazit - Single Page Application built with EmberJS</figcaption>
-              </div>
-            </div>
-          </div>
-          <div class="column center-image is-5">
-            <div class="card-portfolio is-shady">
-              <div class="card-image has-text-centered">
-                <figure class="image is-2by1 img-portfolio">
-                  <img src="https://i.imgur.com/0ELniuq.png" alt="Sticky header FreshBooks">
-                </figure>
-                <figcaption>FreshBooks - Advanced CSS work on sticky headers</figcaption>
-              </div>
+                </a>
+              </figure>
+              <figcaption>Teazit - Single Page Application built with EmberJS</figcaption>
             </div>
           </div>
         </div>
-        <div class="columns is-centered">
-          <div class="column center-image is-5">
-            <div class="card-portfolio is-shady">
-              <div class="card-image has-text-centered">
-                <figure class="image is-2by1 img-portfolio">
-                  <img src="https://i.imgur.com/xLiCMpm.png" alt="Custom ZenDesk API">
-                </figure>
-                <figcaption>Custom API implementation with ZenDesk</figcaption>
-              </div>
+        <div class="column center-image is-5">
+          <div class="card-portfolio is-shady">
+            <div class="card-image has-text-centered">
+              <figure class="image is-2by1 img-portfolio">
+                <a target="_blank" href="https://www.freshbooks.com">
+                  <img src="https://i.imgur.com/0ELniuq.png" alt="Sticky header FreshBooks">
+                </a>  
+              </figure>
+              <figcaption>FreshBooks - Advanced CSS work on sticky headers</figcaption>
             </div>
           </div>
-          <div class="column center-image is-5">
-            <div class="card-portfolio is-shady">
-              <div class="card-image has-text-centered">
-                <figure class="image is-2by1 img-portfolio">
-                  <img src="http://via.placeholder.com/400x200" alt="Custom ExactOnline API">
-                </figure>
-                <figcaption>Custom API implementation with ExactOnline</figcaption>
-              </div>
+        </div>
+      </div>
+      <div class="columns is-centered">
+        <div class="column center-image is-5">
+          <div class="card-portfolio is-shady">
+            <div class="card-image has-text-centered">
+              <figure class="image is-2by1 img-portfolio">
+                <img src="https://i.imgur.com/xLiCMpm.png" alt="Custom ZenDesk API">
+              </figure>
+              <figcaption>Custom API implementation with ZenDesk</figcaption>
+            </div>
+          </div>
+        </div>
+        <div class="column center-image is-5">
+          <div class="card-portfolio is-shady">
+            <div class="card-image has-text-centered">
+              <figure class="image is-2by1 img-portfolio">
+                <img src="http://via.placeholder.com/400x200" alt="Custom ExactOnline API">
+              </figure>
+              <figcaption>Custom API implementation with ExactOnline</figcaption>
             </div>
           </div>
         </div>
       </div>
      </section>
      <section class="container has-text-centered" id="contact">
-       <h1 class="title underlined-title-small">Get in Touch</h1>
+       <h1 class="title-contact underlined-title-small">Get in Touch</h1>
        <p>We are excited to learn about your project. Fill out the form below to get in touch with us.</p>
       <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc4S8W2CV2Nk1wZZnCKF247DeLcAx2aFli-Vxiy8fhycuI44w/viewform?embedded=true" width="640" height="790" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
     </section>
     <section class="hero">
       <div class="hero-footer has-text-centered">
-        <a class="is-large" href="">
+        <a class="is-large" href="https://twitter.com/">
           <span class="icon icon-color" id="icon-twitter">
             <i class="fab fa-twitter-square" aria-hidden="true"></i>
           </span>
         </a>
-        <a class="is-large" href="">
+        <a class="is-large" href="www.linkedin.com/in/emma-podlewski">
           <span class="icon icon-color" id="icon-linkedin">
             <i class="fab fa-linkedin" aria-hidden="true"></i>
           </span>
         </a>
-        <a class="is-large" href="">
+        <a class="is-large" href="https://github.com/EmmaPodlewski">
           <span class="icon icon-color" id="icon-github">
             <i class="fab fa-github" aria-hidden="true"></i>
           </span>
