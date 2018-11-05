@@ -84,6 +84,13 @@ p {
   font-size: 22px;
   font-weight: 500;
 }
+.text-is-purple {
+  color: #431c5d;
+  font-weight: 400;
+}
+.text-is-white {
+  color: #ffffff;
+}
 .text-top-banner {
   font-size: 18px;
   color: #ffffff;
@@ -184,6 +191,10 @@ box-shadow: 0 10px 16px rgba(0, 0, 0, .13), 0 6px 6px rgba(0, 0, 0, .19);
   background-color: #07889B;
   padding-bottom: 36px;
 }
+#aboutus {
+  background-color: #07889B;
+  padding-bottom: 36px;
+}
 .underlined-title-small:after {
     content: "";
     display: block;
@@ -264,4 +275,14 @@ figcaption {
 .vertical-align {
   display: flex;
   align-items: center;
+}
+.is-small-caps {
+  font-variant: small-caps;
+}
+.is-right-aligned {
+  justify-content: flex-end;
+}
+.icon-padding {
+  padding-top: 48px;
+  padding-right: 24px;
 }
