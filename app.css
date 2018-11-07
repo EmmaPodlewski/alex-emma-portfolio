@@ -183,9 +183,17 @@ box-shadow: 0 10px 16px rgba(0, 0, 0, .13), 0 6px 6px rgba(0, 0, 0, .19);
   height: 125px;
   margin-top: 18px;
 }
+.image .img-about-us {
+  width: 150px;
+  height: 150px;
+  margin-top: 18px;
+}
 .img-circle {
   border: 0.4px solid #d3d3d3;
   border-radius: 50%;
+}
+.column-emma-margin-right {
+  margin-right: 48px;
 }
 #portfolio {
   background-color: #07889B;
