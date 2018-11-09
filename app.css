@@ -234,10 +234,6 @@ box-shadow: 0 10px 16px rgba(0, 0, 0, .13), 0 6px 6px rgba(0, 0, 0, .19);
 .card-title {
   margin: 0px;
 }
-.hero-footer {
-  background-color: #07889B;
-  padding-top: 30px;
-}
 .is-round {
   border-radius: 50%;
   border: 1px solid #431c5d;
@@ -245,11 +241,14 @@ box-shadow: 0 10px 16px rgba(0, 0, 0, .13), 0 6px 6px rgba(0, 0, 0, .19);
 .column-expertise-bottom {
   margin-bottom: 4rem;
 }
+.hero-footer {
+  min-height: 70px;
+}
 .hero-footer p {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
-  color: #ffffff;
-  font-size: 12px;
+  color: #431c5d;
+  font-size: 14px;
 }
 .card-image {
   padding: 0px;
@@ -293,4 +292,11 @@ figcaption {
 .icon-padding {
   padding-top: 48px;
   padding-right: 24px;
+}
+.alignItem--flexEnd {
+  display: flex;
+  align-items: flex-end;
+}
+.justifyContent--center {
+  justify-content: center;
 }
