@@ -2,53 +2,6 @@ body {
   font-family: 'Archivo', sans-serif;
 }
 
-/* This is the index revisited css */
-.has-background-image {
-  background-image: linear-gradient(to right, rgba(7, 136, 155,0), rgba(30, 39, 44,1));
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-color: #07889B;
-}
-
-.title-name {
-  font-size: 42px;
-  font-weight: 300;
-  display: inline-block;
-  color: #431c5d;
-}
-.title-header {
-  font-family: 'Archivo', sans-serif;
-  color: #ffffff;
-  display: inline-block;
-  font-size: 42px;
-  font-weight: 300;
-}
-
-.subtitle-header {
-  font-size: 28px;
-  font-weight: 200;
-}
-
-.u-paddingRight--quarter {
-  padding-right: 6px;
-}
-
-.u-paddingBottom--half {
-  padding-bottom: 12px;
-}
-
-.text-skills {
-  font-size: 18px;
-  color: #07889B;
-}
-
-.hero-head {
-  background-image: linear-gradient(to right, rgba(7, 136, 155,0), rgba(30, 39, 44,1));
-  background-color: #07889B;
-}
-
 /* This is the index css */
 .navbar {
   box-shadow: 0 3px 4px 0
